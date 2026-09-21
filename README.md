@@ -38,7 +38,9 @@ pipwin install pyaudio
    - Copy `.env.example` to `.env`
    - Get an API key at https://platform.openai.com/api-keys (sign up or log in to OpenAI)
    - Put your key in `.env`: `OPENAI_API_KEY=sk-your-key-here`
-   - **Note:** Cursor Pro does not include OpenAI API access; you need a separate OpenAI account and key for this.
+   - The .env file is excluded from version control and should never be committed or shared publicly.
+
+Optional local alternative: You can use Ollama with a locally running model instead of the OpenAI API. See OLLAMA_SETUP.md for setup instructions.
 
 ## Usage
 
